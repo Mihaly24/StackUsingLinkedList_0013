@@ -14,6 +14,11 @@ public:
 class Stack {
 private:
     Node* top;
+
+public:
+    Stack() {
+        top = NULL;
+    }
 };
 
 int main()
