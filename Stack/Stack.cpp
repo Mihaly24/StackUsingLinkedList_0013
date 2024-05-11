@@ -96,6 +96,9 @@ int main()
         case 4:
             cout << "exiting program." << endl;
             break;
+        default:
+            cout << "Invalid choice. Try again." << endl;
+            break;
         }
     }
 }
